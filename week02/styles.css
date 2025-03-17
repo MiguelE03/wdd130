@@ -1,0 +1,79 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header Section */
+header {
+    background-color: lightgray;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    color: darkblue;
+}
+
+/* Navigation Section */
+nav {
+    background-color: darkblue;
+    padding: 10px;
+}
+
+nav a {
+    color: white;
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: lightblue;
+}
+
+/* Main Section */
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: darkblue;
+}
+
+/* Aside Section */
+aside {
+    width: 300px;
+    margin: 20px;
+    padding: 15px;
+    background-color: lightgray;
+    border: 1px solid #ccc;
+    color: darkblue;
+}
+
+aside img {
+    width: 200px;
+    height: auto;
+    border: 1px solid black;
+    padding: 2px;
+}
+
+/* Paragraph Styling */
+p {
+    padding: 10px;
+}
+
+/* Footer Section */
+footer {
+    margin-top: 20px;
+    border-top: 1px solid #ccc;
+    text-align: center;
+    padding: 10px;
+    background-color: lightgray;
+}
+
