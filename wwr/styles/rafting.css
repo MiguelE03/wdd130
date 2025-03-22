@@ -29,6 +29,11 @@ a {
     background-repeat: no-repeat;
 }
 
+@media (max-width: 600px) {
+    .hero {
+        height: 50vh;
+    }
+}
 .hero img {
     display: block;
     width: 100%;
