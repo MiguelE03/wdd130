@@ -244,3 +244,88 @@ footer nav img {
 }
 
 
+.cta {
+    text-align: center;
+    margin: 20px 0;
+    font-size: 1.2em;
+  }
+  
+  .trips {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 20px 0;
+  }
+  
+  .trip {
+    width: 30%;
+    margin: 15px;
+    text-align: center;
+  }
+  
+  .trip img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .trip-table {
+    margin: 20px 0;
+    padding: 20px;
+    border: 1px solid #ccc;
+  }
+  
+  .trip-table table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .trip-table th, .trip-table td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ddd;
+  }
+
+  .cta {
+    text-align: center;
+    padding: 40px;
+    background-color: #0073e6;
+    color: white;
+}
+
+.cta-button {
+    background-color: #f4a261;
+    padding: 10px 20px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.cta-button:hover {
+    background-color: #e76f51;
+}
+
+/* Newsletter */
+.newsletter {
+    padding: 30px;
+    background-color: #f1f1f1;
+    text-align: center;
+}
+
+.newsletter form input {
+    padding: 10px;
+    margin: 10px;
+    width: 250px;
+}
+
+.newsletter button {
+    padding: 10px 20px;
+    background-color: #0073e6;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.newsletter button:hover {
+    background-color: #005bb5;
+}
